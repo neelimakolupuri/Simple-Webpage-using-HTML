@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>LOGIN.Loyola Academy</title>
+        <link rel="icon" type="image" href="https://www.loyolaacademyugpg.ac.in/wp-content/uploads/2019/03/New-Logo-2.png">
+    <h1 style="text-align: center;color: white;"><br><b>LOGIN</b></h1>
+    <style>
+        .form {background-color: gray 
+        ;width: 50%;}
+        .button{color: red; margin: 12px 12px; 
+            background-color: black ;border: solid;border-radius: 12px;
+            padding: 10px 10px;}
+    </style>
+    </head>
+    <body style="background-color: black;">
+        <p style="font-size: 25;">1.Please fill the form with neccesary details.</p>
+        <br>
+        <form method="GET" >
+            <fieldset style="width: 50%;"class="form">
+                <legend style="color: white;" ><b style="font-size: 30px;">Sign Up</b></legend>
+                <br><br>
+            <label><b>First Name: </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="text" name="First" placeholder="Name" required maxlength="12"></label>
+            <br><br>
+            <label><b> Last Name:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="text" name="second" placeholder="Name" required maxlength="12"></label>
+            <br><br>
+            <label><b>Date of Birth:</b>&nbsp&nbsp&nbsp&nbsp
+                <input type="datetime-local" min="2014-01-01" max="2021-12-31"></label>
+            <br><br>
+            <label><b> Phone Number:</b>&nbsp<input type="tel" pattern="[0-9] {10}" placeholder="Number" required ></label>
+            <br><br>
+            <label><b>Email Address:</b>&nbsp&nbsp&nbsp<input type="email" placeholder="Email" required></label>
+            <br><br>
+            <label><b>Qualification:</b></label>   
+            <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="radio"name="Qualification" required> MPC
+                <input type="radio"name="Qualification" required> BIPC 
+                <input type="radio"name="Qualification" required> CEC
+            <br><br>
+            <label><b>Year of Passing :<b><input type="year" placeholder="Year"></label>
+            <br><br>
+            <label><b>Gender:</b></label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;&nbsp;
+           <select>
+               <option value=" disabled selected">Gender</option>
+               <option value="Female">Female</option>
+               <option value="Male">Male</option>
+               <option value="Transgender">Transgender</option>
+           </select>
+            <br><br>
+            <label><b>Address:</b></label><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <textarea name="Adress" rows="6" cols="15" placeholder="Enter Address"></textarea>
+            <br><br>
+            <label><b>New Password:</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" placeholder="Password"></label>
+            <br><br>
+            <label><b>Re-Enter Password:</b><input type="password" placeholder="Re-Password"></label>
+            <br><br> 
+            <label>Select Your Security Question*</label><br><br>
+            <select>
+                <option value=" disabled selected">Question</option>
+                <option>Question1</option>
+                <option>Question2</option>
+                <option>Question3</option>
+                <option>Question4</option>
+            </select><br><br>
+            <label>Answere to your security question*</label><br><br>
+            <input type="text" placeholder="Enter your security answere">
+            <br><br><br>
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             <input type="submit" value="Submit" class="button"> 
+             <input type="reset" value="Reset" class="button">
+                 
+            </fieldset>
+        
+
+        </form>
+    </body>
+</html>
